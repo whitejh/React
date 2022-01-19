@@ -36,7 +36,9 @@ class Habits extends Component {
             // Habit이라는 prop 이름에 우리가 각각의 habit을 전달
           ))}
         </ul>
-        <button className="habits-reset">Reset ALL</button>
+        <button className="habits-reset" onClick={this.props.onReset}>
+          Reset ALL
+        </button>
       </>
     );
   }
