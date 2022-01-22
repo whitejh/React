@@ -1,7 +1,7 @@
-import React, { Component } from "react";
+import React, { PureComponent } from "react";
 
 // 클래스는 대문자로 시작
-class Habit extends Component {
+class Habit extends PureComponent {
   //setState :  클래스 컴포넌트에서 클래스 안의 state를 업데이트할 때 쓰는 API
   //useState :  리액트 훅에서 state를 사용하고 싶을떄 쓰는 API
   // Habit이라는 컴포넌트에는 단순히 props으로 전달된 콜백함수들을 호출
