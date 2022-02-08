@@ -2,7 +2,7 @@ import React, { PureComponent } from "react";
 
 class Navbar extends PureComponent {
   render() {
-    console.log('navbar');
+    //console.log('navbar');
     return (
       <div className="navbar">
         <nav className="navbar-logo fas fa-book"></nav>

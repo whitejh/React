@@ -20,7 +20,7 @@ class Habit extends PureComponent {
 
   render() {
     const { name, count } = this.props.habit;
-    console.log(`habit: ${name}`);
+    //console.log(`habit: ${name}`);
     return (
       <li className="habit">
         <span className="habit-name">{name}</span>
